@@ -13,4 +13,3 @@ per.o: src/per.c
 
 clean:
 	rm -rf build/*.o bin/geomety2
-

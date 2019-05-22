@@ -11,7 +11,7 @@ int main()
     float A[n];
     for (i = 1; i <= n; i++) {
         printf("\n %d.circle=", i);
-        scanf("%d.circle(%f)", &i, &r);
+        scanf("%d %f", &i, &r);
         A[i] = r;
     }
 
