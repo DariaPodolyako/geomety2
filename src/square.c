@@ -1,6 +1,7 @@
 #include "foo.h"
 #include <stdio.h>
 #include <stdlib.h>
+#include <math.h>
 float square(float r)
 {
     float s = 0, PI = 3.1415;
