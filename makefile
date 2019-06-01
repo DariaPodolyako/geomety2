@@ -19,7 +19,7 @@ build/test:
 	mkdir build/test -p
 
 bin/geomety2_test: build/test/maintest.o build/test/square.o build/test/per.o build/test/peres.o
-	gcc build/test/maintest.o build/test/square.o build/test/per.o build/test/peres.o -Wall -Werror -lm  -o bin/geomety2
+	gcc build/test/maintest.o build/test/square.o build/test/per.o build/test/peres.o -Wall -Werror -lm  -o bin/geomety2_test -lm
 
 build/test/maintest.o: test/maintest.c src/foo.h
 	gcc -Wall -Werror -c -I thirdparty -I src test/maintest.c -o build/test/maintest.o
