@@ -4,6 +4,7 @@ script:
 - make test
 - cd bin
 - ./geomety2_test
+- git ls-files src/ | xargs clang-format -i && git diff --exit-code
 
 compiler: gcc
 
